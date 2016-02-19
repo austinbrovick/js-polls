@@ -8,6 +8,9 @@ module.exports = function(app) {
   console.log("made it to routes!!");
 
 
+  app.post('/users', users.create); // creates user
+
+  app.post('/questions', questions.index); // get all the questions
 
 
 

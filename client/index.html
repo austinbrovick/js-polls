@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app='app'>
+<head>
+    <title></title>
+        <!-- put angular on top -->
+    <script src='/angular/angular.js'></script>
+    <script src='/angular-route/angular-route.js'></script>
+    <script src='/ngstorage/ngStorage.js'></script>
+
+    <script src='app.js'></script>
+
+    <script src='factories/UserFactory.js'></script>
+    <script src='factories/QuestionFactory.js'></script>
+    <script src='factories/OptionFactory.js'></script>
+
+    <script src='controllers/UserController.js'></script>
+    <script src='controllers/QuestionController.js'></script>
+    <script src='controllers/OptionController.js'></script>
+
+</head>
+<body>
+
+  <div ng-view=""></div>
+</body>
+
+
+</html>
